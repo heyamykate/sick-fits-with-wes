@@ -5,7 +5,8 @@ const Query = {
     //     const items = await context.db.query.items();
     //     return items;
     // }
-    items: forwardTo('db') // shorthand for above code
+    items: forwardTo('db'), // shorthand for above code
+    item: forwardTo('db')
 };
 
 module.exports = Query;
