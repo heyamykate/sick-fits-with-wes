@@ -6,7 +6,8 @@ const Query = {
     //     return items;
     // }
     items: forwardTo('db'), // shorthand for above code
-    item: forwardTo('db')
+    item: forwardTo('db'),
+    itemsConnection: forwardTo('db')
 };
 
 module.exports = Query;
